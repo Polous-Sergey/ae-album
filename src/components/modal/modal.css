@@ -1,0 +1,44 @@
+.modal {
+    background-color: rgba(220, 220, 220, 0.5);
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.modal .close-button {
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 999;
+    background-color: white;
+}
+
+.modal .window {
+    display: flex;
+    position: relative;
+    min-height: 200px;
+    min-width: 40%;
+    background-color: #fff;
+    margin: auto;
+    padding: 5px;
+}
+
+.modal .carousel-control-prev-icon, .modal .carousel-control-next-icon {
+    background-color: black;
+}
+
+.modal .carousel button {
+    background-color: inherit;
+    border: 0;
+}
+
+.modal .full-image {
+    margin: auto;
+    max-height: 75vh;
+}
+
